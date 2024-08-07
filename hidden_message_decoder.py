@@ -3,7 +3,7 @@ import pd_settings
 
 # This class decodes a plottable message that's represented in a url document's table
 # Author: Daniel Oyebolu -> linkedin.com/daniel-oyebolu
-class GridCodeDecoder:
+class HiddenMessageDecoder:
 
     # A method that:
     # a. prepares and cleans the data table.
@@ -68,7 +68,7 @@ class GridCodeDecoder:
         return code_list
 
 
-grid_code_decoder=GridCodeDecoder()
+grid_code_decoder=HiddenMessageDecoder()
 grid_code_decoder.construct_message(
     "https://docs.google.com/document/d/e/2PACX-1vRMx5YQlZNa3ra8dYYxmv-QIQ3YJe8tbI3kqcuC7lQiZm-CSEznKfN_HYNSpoXcZIV3Y_O3YoUB1ecq/pub"
     # "https://docs.google.com/document/d/e/2PACX-1vSHesOf9hv2sPOntssYrEdubmMQm8lwjfwv6NPjjmIRYs_FOYXtqrYgjh85jBUebK9swPXh_a5TJ5Kl/pub"
