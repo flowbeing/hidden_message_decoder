@@ -12,4 +12,6 @@ table_one['Numeric']=[int(i) for i in table_one['Numeric'].to_list()]
 table_one.sort_values('Numeric', ascending=True, inplace=True)
 print(table_one.loc[table_one['Country']=='Ghana'])
 
+print(table_one.count())
+
 # print(table_one)
