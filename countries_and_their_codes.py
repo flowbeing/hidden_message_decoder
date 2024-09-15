@@ -13,5 +13,6 @@ table_one.sort_values('Numeric', ascending=True, inplace=True)
 print(table_one.loc[table_one['Country']=='Egypt'])
 
 print(table_one.count())
+print(table_one.head())
 
 # print(table_one)
